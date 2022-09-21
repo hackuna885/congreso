@@ -89,7 +89,51 @@
                 <!-- header -->
 
             </div>
-            <div class="row">
+
+            <div class="row m-0 p-0">
+                <div class="col-md-8 my-5 mx-auto">
+                    <h3>CONVOCATORIAS:</h3>
+                    <br>
+                    <!-- //coriascatorio --> 
+                    <div id="convoca" class="carousel slide wow animate__animated animate__fadeInDown" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#convoca" data-slide-to="0" class="active"></li>
+                          <li data-target="#convoca" data-slide-to="1"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <a href="pdf/convocatoria_foro_de_investigacion_XVIII_2022.pdf"target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/carrusel0.jpg" alt="Concurso de Simuladores">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
+                                    <h2>Concurso de Simuladores</h2>
+                                    <p>Da click en la imagen</p>
+                                </div>
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="pdf/convocatoria_foro_de_investigacion_XVIII_2022.pdf"target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/carrusel1.jpg" alt="Foro de investigación">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
+                                    <h2>Foro de investigación</h2>
+                                    <p>Da click en la imagen</p>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#convoca" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#convoca" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                      </div>
+                    <!-- //convocatorias --> 
+                </div>
+            </div>
+
+            <div class="row m-0 p-0">
 
                 <div class="col-md-8 my-5 mx-auto">
                     <h3>OBJETIVO:</h3>
@@ -111,7 +155,7 @@
                 </div>
 
             </div>
-            <div class="row">
+            <div class="row m-0 p-0">
                 <div class="col-md-8 my-5 mx-auto">
                     <h3>SEDE PRESENCIAL</h3>
                     <p class="my-3 text-justify">
@@ -123,7 +167,7 @@
                     </video>   
                 </div>
             </div>
-            <div class="row">
+            <div class="row m-0 p-0">
                 <div class="col-md-8 my-5 mx-auto">
                     <h3>SEDES VIRTUALES:</h3>
                     <p class="my-3 text-justify">
@@ -140,7 +184,7 @@
                     UT Calvillo              
                     </p>
                     <br><br>
-                    <div class="row">
+                    <div class="row m-0 p-0">
                         <div class="col-md-6">
                             <img src="img/UTValle_del_Mezquital.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInLeft" alt="UT Valle del Mezquital">
                         </div>
@@ -169,7 +213,7 @@
                 <img src="img/fondoBanner.jpg" class="img-fluid" alt="banner">
             </div>
         </div>
-        <div class="row">
+        <div class="row m-0 p-0">
             <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Miércoles 16 de Noviembre de 2022</h4>
@@ -182,7 +226,7 @@
                 <img src="img/fondoBanner0.jpg" class="img-fluid" alt="banner">
             </div>
         </div>
-        <div class="row">
+        <div class="row m-0 p-0">
             <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Jueves 17 de Noviembre de 2022</h4>
@@ -194,7 +238,7 @@
                 <img src="img/fondoBanner2.jpg" class="img-fluid" alt="banner">
             </div>
         </div>
-        <div class="row">
+        <div class="row m-0 p-0">
             <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Viernes 18 de Noviembre de 2022</h4>
@@ -204,7 +248,7 @@
 
         <br>
         <br>
-        <div class="row">
+        <div class="row m-0 p-0">
             <div class="col-md-8 my-5 mx-auto">
                 <div class="row">
                     <div class="col-md-4">
@@ -270,12 +314,13 @@
             </div>
         </div> -->
     </div>
-    <!-- <script src="js/jquery.min.js"></script> -->
-    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
+    
 </body>
 </html>
