@@ -91,7 +91,7 @@
             </div>
             <div class="row">
 
-                <div class="col-8 my-5 mx-auto">
+                <div class="col-md-8 my-5 mx-auto">
                     <h3>OBJETIVO:</h3>
                     <p class="my-3 text-justify">
                     Crear un escenario híbrido para actualizarse en temas de vanguardia sobre
@@ -100,10 +100,10 @@
                     prepararnos para los grandes retos del mundo post - pandemia.                
                     </p>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-6 mx-auto">
                             <img src="img/imgTecno_.jpg" class="img-fluid rounded wow animate__animated animate__fadeInLeft" alt="img Tecno 1">
                         </div>
-                        <div class="col-6">
+                        <div class="col-6 mx-auto">
                             <img src="img/imgTecno2_.jpg" class="img-fluid rounded wow animate__animated animate__fadeInUp" alt="img Tecno 2">
                         </div>
                     </div>
@@ -112,7 +112,7 @@
 
             </div>
             <div class="row">
-                <div class="col-8 my-5 mx-auto">
+                <div class="col-md-8 my-5 mx-auto">
                     <h3>SEDE PRESENCIAL</h3>
                     <p class="my-3 text-justify">
                     UT Fidel Velázquez (Sede Presencial)               
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-8 my-5 mx-auto">
+                <div class="col-md-8 my-5 mx-auto">
                     <h3>SEDES VIRTUALES:</h3>
                     <p class="my-3 text-justify">
                     UT Valle del Mezquital
@@ -141,22 +141,22 @@
                     </p>
                     <br><br>
                     <div class="row">
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/UTValle_del_Mezquital.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInLeft" alt="UT Valle del Mezquital">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/UTNayarit.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInUp" alt="UT Nayarit">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/UTZacatecas.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInDown" alt="UT Zacatecas">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/UTSuresteEstadoVeracruz.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInLeft" alt="img Tecno 2">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/UTRivieraMaya.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInLeft" alt="img Tecno 1">
                         </div>
-                        <div class="col-6">
+                        <div class="col-md-6">
                             <img src="img/UTCalvillo.jpg" class="img-fluid rounded mb-4 wow animate__animated animate__fadeInUp" alt="UT Calvillo">
                         </div>
                     </div>  
@@ -170,7 +170,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 my-5 mx-auto text-center">
+            <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Miércoles 16 de Noviembre de 2022</h4>
                 <img src="img/cal16Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 16 de Noviembre 2022">  
@@ -183,7 +183,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 my-5 mx-auto text-center">
+            <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Miércoles 17 de Noviembre de 2022</h4>
                 <img src="img/cal17Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 17 de Noviembre 2022">  
@@ -195,7 +195,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-8 my-5 mx-auto text-center">
+            <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Miércoles 18 de Noviembre de 2022</h4>
                 <img src="img/cal18Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 18 de Noviembre 2022">  
@@ -205,9 +205,9 @@
         <br>
         <br>
         <div class="row">
-            <div class="col-8 my-5 mx-auto">
+            <div class="col-md-8 my-5 mx-auto">
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-md-4">
                         <h2>Costos</h2>
                         <br>
                         <p class="my-3 text-justify">
@@ -237,7 +237,7 @@
                         </p>
                         <br><br>
                     </div>
-                    <div class="col-8 mx-auto text-center">
+                    <div class="col-md-8 mx-auto text-center">
                         <table class="mx-auto text-center">
                             <tr>
                                 <td>
