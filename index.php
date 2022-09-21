@@ -185,7 +185,7 @@
         <div class="row">
             <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
-                <h4>Miércoles 17 de Noviembre de 2022</h4>
+                <h4>Jueves 17 de Noviembre de 2022</h4>
                 <img src="img/cal17Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 17 de Noviembre 2022">  
             </div>
         </div>
@@ -197,7 +197,7 @@
         <div class="row">
             <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
-                <h4>Miércoles 18 de Noviembre de 2022</h4>
+                <h4>Viernes 18 de Noviembre de 2022</h4>
                 <img src="img/cal18Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 18 de Noviembre 2022">  
             </div>
         </div>
