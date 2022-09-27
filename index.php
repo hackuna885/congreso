@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>XVIII Congreso Nacional de Administración y Negocios 2022</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        @font-face{
+            font-family:"Roboto-Bold";
+            src: url(css/fonts/Roboto/Roboto-Bold.ttf);
+        }
+    </style>
 </head>
 <body>
     <div class="container-fluid">
@@ -76,8 +83,31 @@
                       <div class="d-flex h-100 text-center align-items-center">
 
                         <div class="w-100 text-white">
-                          <img src="img/logoVideo.svg" class="img-fluid mx-auto mb-5 animate__animated animate__fadeIn animate__delay-1s" style="width: 300px;" alt="XVIII Congreso">
-                          <p class="mb-0 animate__animated animate__fadeIn animate__delay-1s">La Dirección General de Universidades Tecnológicas y Politécnicas a través de la Universidad Tecnológica Fidel Velázquez convoca al:<p>
+                          <h5 class="mb-4 animate__animated animate__fadeIn animate__delay-1s">La Dirección General de Universidades Tecnológicas y Politécnicas a través de la Universidad Tecnológica Fidel Velázquez convoca al:<h5>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-8 mx-auto mb-3">
+                                    <table class="mx-auto rounded-5 animate__animated animate__backInLeft animate__delay-1s" style="background-color: rgba(255, 255, 255, .75);">
+                                        <tr>
+                                            <td class="p-md-3 p-1" style="width: 40%;">
+                                                <div style="height: 200px; padding-top: 20px;">
+                                                    <img src="img/soloLogo.svg" class="img-fluid mx-auto mb-5" alt="Logo XVIII Congreso" style="height: 150px;">
+                                                </div>
+                                            </td>
+                                            <td class="p-md-3 p-1">
+                                                <h1 class="text-start" style="color: #A271DF; font-family: Roboto-Bold;">
+                                                    XVIII
+                                                    <br><div style="color: #F3AF0E; font-family: Roboto-Bold; font-size: .65em;">CONGRESO NACIONAL</div>
+                                                    <div style="color: #4F2D80; font-family: Roboto-Bold; font-size: .65em;">DE ADMINISTRACIÓN Y</div>
+                                                    <div style="color: #4F2D80; font-family: Roboto-Bold; font-size: .65em;">NEGOCIOS
+                                                    <label style="color: #A271DF; font-family: Roboto-Bold;">2022</label></div>
+                                                </h1>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                            <br>
                           <h4 class="mb-0 text-warning animate__animated animate__fadeIn animate__delay-1s">“Retos y perspectivas del Mundo de la Administración Pos-pandemia”<h4>
                           <h1 class="animated text-warning animate__animated animate__fadeIn animate__delay-1s">16, 17 y 18 de Noviembre</h1>
                         </div>
