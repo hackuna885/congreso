@@ -336,7 +336,7 @@
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <a href="pdf/HotelOneCuautitlan.pdf" target="_blank" rel="noopener noreferrer">
-                                    <img class="d-block w-100" src="img/imgHotelCuautitlan.jpg" alt="imgHotelCuautitlan">
+                                    <img class="d-block w-100" src="img/imgHotelCuautitlan.jpg" alt="imgHotelCuautitlan" style="max-height: 355px;">
                                     <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
                                         <p>Click aquí para más información</p>
                                     </div>
@@ -345,7 +345,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 my-3 my-md-0">
                         <div id="map-container-google-2" class="z-depth-1-half map-container wow animate__animated animate__fadeInUp" style="background-color: #5A3087;">
                             <iframe src="https://maps.google.com/maps?q=One+Cuautitlán&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                               style="border: 0; width: 100%; height: 350px;" allowfullscreen></iframe>
@@ -366,8 +366,8 @@
                             </ol>
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
-                                    <img class="d-block w-100" src="img/imgHotelSatelite.jpg" alt="imgHotelSatelite">
+                                <a href="pdf/HotelParqueSatelite.pdf" target="_blank" rel="noopener noreferrer">
+                                    <img class="d-block w-100" src="img/imgHotelSatelite.jpg" alt="imgHotelSatelite" style="max-height: 355px;">
                                     <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
                                         <p>Click aquí para más información</p>
                                     </div>
@@ -377,7 +377,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 my-3 my-md-0">
                         <div id="map-container-google-2" class="z-depth-1-half map-container wow animate__animated animate__fadeInLeft" style="background-color: #5A3087;">
                             <iframe src="https://maps.google.com/maps?q=Hotel+Parque+Satélite&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                               style="border: 0; width: 100%; height: 350px;" allowfullscreen></iframe>
@@ -399,7 +399,7 @@
                             <div class="carousel-inner">
                               <div class="carousel-item active">
                                 <a href="pdf/HotelOneCuautitlan.pdf" target="_blank" rel="noopener noreferrer">
-                                    <img class="d-block w-100" src="img/imgHotelTlalnepantla.jpg" alt="imgHotelTlalnepantla">
+                                    <img class="d-block w-100" src="img/imgHotelTlalnepantla.jpg" alt="imgHotelTlalnepantla" style="max-height: 355px;">
                                     <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
                                         <p>Click aquí para más información</p>
                                     </div>
@@ -409,7 +409,7 @@
                         </div>
 
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 my-3 my-md-0">
                         <div id="map-container-google-2" class="z-depth-1-half map-container wow animate__animated animate__fadeInUp" style="background-color: #5A3087;">
                             <iframe src="https://maps.google.com/maps?q=Fiesta+Inn+Tlalnepantla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                               style="border: 0; width: 100%; height: 350px;" allowfullscreen></iframe>
