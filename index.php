@@ -154,7 +154,7 @@
                             <a href="pdf/convocatoriaEmprendimiento_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
                                 <img class="d-block w-100" src="img/carrusel2.jpg" alt="Foro de investigación">
                                 <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
-                                    <h2>Foro de investigación</h2>
+                                    <h2>Concurso de Emprendedores</h2>
                                     <p>Da click en la imagen</p>
                                 </div>
                             </a>
