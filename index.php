@@ -46,7 +46,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="pdf/convocatoriaForoInvestigacion_XVIII_2022.pdf">Foro de Investigación</a>
+                                    <a class="nav-link" href="pdf/convocatoriaForoInvestigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">Foro de Investigación</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Concursos</a>
