@@ -141,7 +141,7 @@
                             </a>
                           </div>
                           <div class="carousel-item">
-                            <a href="pdf/convocatoria_foro_de_investigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
+                            <a href="pdf/convocatoriaForoInvestigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
                                 <img class="d-block w-100" src="img/carrusel1.jpg" alt="Foro de investigación">
                                 <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
                                     <h2>Foro de investigación</h2>
