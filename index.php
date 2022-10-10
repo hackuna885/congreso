@@ -311,6 +311,109 @@
         <div class="row m-0 p-0">
             <div class="col-md-8 my-5 mx-auto">
                 <div class="row">
+                    <div class="col-12">
+                        <h3>Alojamiento</h3>
+                        <p>A partir del viernes 14 de Octubre del 2022 estarán disponibles los precios preferenciales</p>
+                        <br>
+                        <h4>Cuautitlán</h4>
+                    </div>
+                    <div class="col-md-6">
+
+                        <div id="hotelCuautitlan" class="carousel slide wow animate__animated animate__fadeInLeft" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#hotelCuautitlan" data-slide-to="0" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img class="d-block w-100" src="img/imgHotelCuautitlan.jpg" alt="imgHotelCuautitlan">
+                                    <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
+                                        <p>Click aquí para más información</p>
+                                    </div>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map-container-google-2" class="z-depth-1-half map-container wow animate__animated animate__fadeInUp" style="background-color: #5A3087;">
+                            <iframe src="https://maps.google.com/maps?q=One+Cuautitlán&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                              style="border: 0; width: 100%; height: 350px;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Satélite</h4>
+                    </div>
+                    <div class="col-md-6">
+                        
+                        <div id="hotelSatelite" class="carousel slide wow animate__animated animate__fadeInDown" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#hotelSatelite" data-slide-to="0" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img class="d-block w-100" src="img/imgHotelSatelite.jpg" alt="imgHotelSatelite">
+                                    <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
+                                        <p>Click aquí para más información</p>
+                                    </div>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map-container-google-2" class="z-depth-1-half map-container wow animate__animated animate__fadeInLeft" style="background-color: #5A3087;">
+                            <iframe src="https://maps.google.com/maps?q=Hotel+Parque+Satélite&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                              style="border: 0; width: 100%; height: 350px;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <div class="row">
+                    <div class="col-12">
+                        <h4>Tlalnepantla</h4>
+                    </div>
+                    <div class="col-md-6">
+
+                        <div id="hotelTlalnepantla" class="carousel slide wow animate__animated animate__fadeInLeft" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                              <li data-target="#hotelTlalnepantla" data-slide-to="0" class="active"></li>
+                            </ol>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <img class="d-block w-100" src="img/imgHotelTlalnepantla.jpg" alt="imgHotelTlalnepantla">
+                                    <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
+                                        <p>Click aquí para más información</p>
+                                    </div>
+                                </a>
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+                        <div id="map-container-google-2" class="z-depth-1-half map-container wow animate__animated animate__fadeInUp" style="background-color: #5A3087;">
+                            <iframe src="https://maps.google.com/maps?q=Fiesta+Inn+Tlalnepantla&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                              style="border: 0; width: 100%; height: 350px;" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="row m-0 p-0">
+            <div class="col-md-8 my-5 mx-auto">
+                <div class="row">
                     <div class="col-md-4">
                         <h2>Costos</h2>
                         <br>
