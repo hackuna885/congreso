@@ -51,16 +51,16 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Concursos</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="pdf/convocatoria_foro_de_investigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">Emprendedores</a></li>
+                                        <li><a class="dropdown-item" href="pdf/convocatoriaEmprendimiento_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">Emprendedores</a></li>
                                         <li><a class="dropdown-item" href="pdf/BasesRetoLabsag_UT_2022_XVIII_CNAN.pdf" target="_blank" rel="noopener noreferrer">Simuladores</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item">
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#">Actividades</a>
-                                </li>
-                                <li class="nav-item">
+                                </li> -->
+                                <!-- <li class="nav-item">
                                     <a class="nav-link" href="#">Talleres</a>
-                                </li>
+                                </li> -->
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Iniciar sesión</a>
                                 </li>
@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                             <br>
-                          <h4 class="mb-0 text-warning animate__animated animate__fadeIn animate__delay-1s">“Retos y perspectivas del Mundo de la Administración Pos-pandemia”<h4>
+                          <h4 class="mb-0 text-warning animate__animated animate__fadeIn animate__delay-1s">“Retos y perspectivas del Mundo de la Administración Post-pandemia”<h4>
                           <h1 class="animated text-warning animate__animated animate__fadeIn animate__delay-1s">16, 17 y 18 de Noviembre</h1>
                         </div>
 
@@ -129,6 +129,7 @@
                         <ol class="carousel-indicators">
                           <li data-target="#convoca" data-slide-to="0" class="active"></li>
                           <li data-target="#convoca" data-slide-to="1"></li>
+                          <li data-target="#convoca" data-slide-to="2"></li>
                         </ol>
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -142,6 +143,15 @@
                           </div>
                           <div class="carousel-item">
                             <a href="pdf/convocatoriaForoInvestigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/carrusel1.jpg" alt="Foro de investigación">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
+                                    <h2>Foro de investigación</h2>
+                                    <p>Da click en la imagen</p>
+                                </div>
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="pdf/convocatoriaEmprendimiento_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
                                 <img class="d-block w-100" src="img/carrusel1.jpg" alt="Foro de investigación">
                                 <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
                                     <h2>Foro de investigación</h2>
