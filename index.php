@@ -46,12 +46,12 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Foros</a>
+                                    <a class="nav-link" href="pdf/convocatoriaForoInvestigacion_XVIII_2022.pdf">Foro de Investigación</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Concursos</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="pdf/convocatoria_foro_de_investigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">Investigadores</a></li>
+                                        <li><a class="dropdown-item" href="pdf/convocatoria_foro_de_investigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">Emprendedores</a></li>
                                         <li><a class="dropdown-item" href="pdf/BasesRetoLabsag_UT_2022_XVIII_CNAN.pdf" target="_blank" rel="noopener noreferrer">Simuladores</a></li>
                                     </ul>
                                 </li>
