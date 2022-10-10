@@ -211,7 +211,7 @@
                     Crear un escenario híbrido para actualizarse en temas de vanguardia sobre
                     administración y negocios, software aplicado a los negocios, gestión de talento
                     humano, conocer resultados de investigaciones, compartir experiencias y
-                    prepararnos para los grandes retos del mundo post - pandemia.                
+                    prepararnos para los grandes retos del mundo pospandemia.                
                     </p>
                     <div class="row">
                         <div class="col-6 mx-auto">
