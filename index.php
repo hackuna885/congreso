@@ -158,7 +158,37 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only"></span>
                         </a>
-                      </div>
+                    </div>
+                    <!-- //emprendimiento -->
+                    <br>
+                    <br>
+                    <h3>CONCURSO DE EMPRENDIMIENTO:</h3>
+                    <br>
+                    <div id="concurso" class="carousel slide wow animate__animated animate__fadeInDown" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#concurso" data-slide-to="0" class="active"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <a href="https://forms.office.com/r/nN6CRRRGQ0" target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/concursoEmprendimiento.jpg" alt="Concurso de Simuladores">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 640px;">
+                                    <h2>Concurso de Emprendimiento</h2>
+                                    <p>Da click en la imagen</p>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#convoca" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#convoca" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                    </div>
+                    <!-- //emprendimiento --> 
                     <!-- //convocatorias --> 
                 </div>
             </div>
