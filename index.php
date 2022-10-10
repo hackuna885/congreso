@@ -388,7 +388,7 @@
                             </ol>
                             <div class="carousel-inner">
                               <div class="carousel-item active">
-                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                <a href="pdf/HotelOneCuautitlan.pdf" target="_blank" rel="noopener noreferrer">
                                     <img class="d-block w-100" src="img/imgHotelTlalnepantla.jpg" alt="imgHotelTlalnepantla">
                                     <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 120px;">
                                         <p>Click aquí para más información</p>
