@@ -108,7 +108,7 @@
                                 </div>
                             </div>
                             <br>
-                          <h4 class="mb-0 text-warning animate__animated animate__fadeIn animate__delay-1s">“Retos y perspectivas del Mundo de la Administración Post-pandemia”<h4>
+                          <h4 class="mb-0 text-warning animate__animated animate__fadeIn animate__delay-1s">“Retos y perspectivas del Mundo de la Administración Pospandemia”<h4>
                           <h1 class="animated text-warning animate__animated animate__fadeIn animate__delay-1s">16, 17 y 18 de Noviembre</h1>
                         </div>
 
