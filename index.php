@@ -288,7 +288,7 @@
                 <h3>Programa General de Actividades</h3>
                 <h4>Miércoles 16 de Noviembre de 2022</h4>
                 <!-- <img src="img/cal16Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 16 de Noviembre 2022">   -->
-                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 400px;" onclick="noviembre16();">
+                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 300px;" onclick="noviembre16();">
             </div>
         </div>
 
@@ -302,7 +302,7 @@
                 <h3>Programa General de Actividades</h3>
                 <h4>Jueves 17 de Noviembre de 2022</h4>
                 <!-- <img src="img/cal17Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 17 de Noviembre 2022">   -->
-                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 400px;" onclick="noviembre17();">
+                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 300px;" onclick="noviembre17();">
             </div>
         </div>
         <div class="row">
@@ -315,7 +315,7 @@
                 <h3>Programa General de Actividades</h3>
                 <h4>Viernes 18 de Noviembre de 2022</h4>
                 <!-- <img src="img/cal18Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 18 de Noviembre 2022">   -->
-                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 400px;" onclick="noviembre18();">
+                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 300px;" onclick="noviembre18();">
             </div>
         </div>
 
