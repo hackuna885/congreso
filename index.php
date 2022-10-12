@@ -287,7 +287,8 @@
             <div class="col-md-8 my-5 mx-auto text-center">
                 <h3>Programa General de Actividades</h3>
                 <h4>Miércoles 16 de Noviembre de 2022</h4>
-                <img src="img/cal16Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 16 de Noviembre 2022">  
+                <!-- <img src="img/cal16Nov22.png" class="img-fluid mx-auto" alt="Calendario del día 16 de Noviembre 2022">   -->
+                <img src="img/calendario.png" class="img-fluid enlace wow animate__animated animate__pulse animate__infinite infinite" alt="calendario" style="max-width: 400px;" onclick="noviembre16();">
             </div>
         </div>
 
@@ -490,10 +491,246 @@
     <script src="js/jquery-3.2.1.slim.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sweetalert2@11.js"></script>
     <script src="js/wow.min.js"></script>
     <script>
         new WOW().init();
     </script>
-    
+    <script>
+        function noviembre16() {
+            Swal.fire({
+            title: '<strong>Miércoles 16 de Noviembre</strong>',
+            html:
+            /*html*/
+                `
+                <div style="background-color: #5A3087; padding: 10px; color: #FFF; margin: 10px; border-radius: 10px;">
+                    <h1><b>PROGRAMA</b></h1>
+                </div>
+                <h3><b>Miércoles 16 de Noviembre</b></h3>
+                <br>
+                <h3><b>SALA PRINCIPAL</b></h3>
+                <br>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                09:00 - 10:00
+                            </div>
+                        </td>
+                        <td>
+                            CEREMONIA DE INAGURACIÓN
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                10:00 - 11:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA MAGISTRAL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                11:00 - 12:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA MAGISTRAL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                16:00 - 17:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA MAGISTRAL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                17:00 - 18:00
+                            </div>
+                        </td>
+                        <td>
+                            ACTIVIDADES CULTURALES
+                        </td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <h4><b>FORO DE INVESTIGACIÓN</b></h4>
+                <h5>SALA 1</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            MESA 1 - NEGOCIOS
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <h5>SALA 2</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            MESA 2 - EDUCACIÓN
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <h5>SALA 3</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            MESA 3 - ECONÓMICO
+                            <br>
+                            ADMINISTRATIVAS
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <br>
+                <h4><b>CONFERENCIAS</b></h4>
+                <h5>SALA 4</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 13:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA 1
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                13:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA 3
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <h5>SALA 5</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 13:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA 2
+                        </td>
+                    </tr>                    
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                13:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            CONFERENCIA 4
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <br>
+                <h4><b>TALLERES</b></h4>
+                <h5>SALA 6</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            TALLER 1
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <h5>SALA 7</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            TALLER 2
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <br>
+                <h4><b>EMPRENDEDORES</b></h4>
+                <h5>SALA 8</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            EXPOSICIÓN DE
+                            <br>
+                            PROYECTOS FINALISTAS
+                        </td>
+                    </tr>                    
+                </table>
+                <br>
+                <br>
+                <h4><b>SIMULADORES</b></h4>
+                <h5>SALA 9</h5>
+                <table>
+                    <tr>
+                        <td>
+                            <div class="alert alert-warning">
+                                12:00 - 14:00
+                            </div>
+                        </td>
+                        <td>
+                            PRESENTACIÓN DE
+                            <br>EQUIPOS FINALISTAS
+                            <br>Y TOMA DE DECISIONES
+                        </td>
+                    </tr>                    
+                </table>
+                
+                
+                `
+                ,
+            confirmButtonText: 'Cerrar'
+            })
+        }
+    </script>
 </body>
 </html>

@@ -42,6 +42,10 @@ header .overlay {
     z-index: 1;
 }
 
+.enlace{
+    cursor: pointer;
+}
+
 @media (pointer: coarse) and (hover: none) {
     header {
         background: url('../img/frameVideo.jpg') #5A3087 no-repeat center center scroll;
