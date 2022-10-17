@@ -65,9 +65,9 @@ switch ($contCaract) {
                 
                 // Impresión de la imagen en el navegador listo para usarla
                 echo "<div class='codigoQr'><img src='resultado.png'/></div>";
-                ?>
+            ?>
                 <div class="codigoBarras">
-                    <div class="otraCodigoBarras">*ABC123*</div>
+                    <div class="otraCodigoBarras"><?php echo $barCode;?></div>
                 </div>
                  <img src="../../img/acceso.jpg">
         </div>
