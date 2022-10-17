@@ -45,7 +45,7 @@ switch ($contCaract) {
 
 <html>
     <head>
-        <link rel="stylesheet" href="/css/cadeneros.css">
+        <link rel="stylesheet" href="../../css/cadeneros.css">
     </head>
     <body>
         <div class="hoja">
@@ -69,7 +69,7 @@ switch ($contCaract) {
                 <div class="codigoBarras">
                     <div class="otraCodigoBarras"><?php echo $barCode;?></div>
                 </div>
-                 <img src="/img/acceso.jpg">
+                 <img src="../../img/acceso.jpg">
         </div>
     </body>
 </html>
