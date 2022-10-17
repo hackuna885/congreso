@@ -34,12 +34,10 @@ use Dompdf\Dompdf;
             $dompdf = new Dompdf();
             ob_start();
             include "plantilla.php";
-            sleep(10);
             $html = ob_get_clean();
             $dompdf->loadHtml($html);
             $dompdf->setPaper('letter', 'vertical');
             $dompdf->render();
-            sleep(10);
     
             //Pregunta donde guardar el PDF
             $pdf = $dompdf->stream($nomPdf);
