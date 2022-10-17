@@ -6,8 +6,8 @@
   padding: 0px; }
 
 @font-face {
-  font-family: 'code39';
-  src: url("fonts/free3of9-webfont.ttf") format("truetype");
+  font-family: 'notoSan';
+  src: url("fonts/NotoSansJP-Bold.otf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 .codigoBarras {
@@ -19,7 +19,7 @@
   width: 588px; }
 
 .otraCodigoBarras {
-  font-family: 'code39';
+  font-family: 'notoSan';
   font-size: 3em; }
 
 .hoja {
