@@ -40,11 +40,11 @@ use Dompdf\Dompdf;
             $dompdf->render();
     
             //Pregunta donde guardar el PDF
-            $pdf = $dompdf->stream($nomPdf);
+            // $pdf = $dompdf->stream($nomPdf);
     
             //Guarda PDF dentro de la ruta
-            // $output = $dompdf->output();
-            // file_put_contents($archivoPdf, $output);
+            $output = $dompdf->output();
+            file_put_contents($archivoPdf, $output);
 
 	
             // ##################################
