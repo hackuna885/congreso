@@ -4,6 +4,7 @@ header("Content-Type: text/html; Charset=UTF-8");
 date_default_timezone_set('America/Mexico_City');
 
 
+
 $id = !empty($id) ? $id : 1;
 $nombreCom = !empty($nombreCom) ? $nombreCom : 'Oliver Raúl Velázquez Torres';
 $institucion = !empty($institucion) ? $institucion : 'Universidad Tecnológica Fidel Velázquez';
