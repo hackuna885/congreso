@@ -40,7 +40,7 @@ switch ($contCaract) {
 
 <html>
     <head>
-        <link rel="stylesheet" href="../../css/cadeneros.css">
+        <link rel="stylesheet" href="../css/cadeneros.css">
     </head>
     <body>
         <div class="hoja">
