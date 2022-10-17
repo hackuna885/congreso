@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: 'code39';
-  src: url("fonts/free3of9/free3of9.ttf") format("truetype");
+  src: url("fonts/free3of9-webfont.woff") format("woff");
   font-style: normal;
   font-weight: normal; }
 .codigoBarras {
@@ -20,7 +20,7 @@
 
 .otraCodigoBarras {
   font-family: 'code39';
-  font-size: 3em; }
+  font-size: 4em; }
 
 .hoja {
   height: 1056px;

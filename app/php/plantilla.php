@@ -67,7 +67,7 @@ switch ($contCaract) {
                 echo "<div class='codigoQr'><img src='resultado.png'/></div>";
                 ?>
                 <div class="codigoBarras">
-                    <div class="otraCodigoBarras">*abc1234*</div>
+                    <div class="otraCodigoBarras">*ABC123*</div>
                 </div>
                  <img src="../../img/acceso.jpg">
         </div>
