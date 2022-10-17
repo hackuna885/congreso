@@ -41,6 +41,25 @@ switch ($contCaract) {
 <html>
     <head>
         <link rel="stylesheet" href="../../css/cadeneros.css">
+        <style>
+            @font-face {
+            font-family: 'code39';
+            src: url("../../css/fonts/free3of9-webfont.ttf") format("truetype");
+            font-style: normal;
+            font-weight: normal; }
+
+            .codigoBarras {
+            position: absolute;
+            margin-top: 255px;
+            margin-left: 120px;
+            text-align: center;
+            /* background-color: rgba(255, 255, 100, .5); */
+            width: 588px; }
+
+            .otraCodigoBarras {
+            font-family: 'code39';
+            font-size: 4em; }
+        </style>
     </head>
     <body>
         <div class="hoja">
