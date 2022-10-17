@@ -5,10 +5,10 @@ date_default_timezone_set('America/Mexico_City');
 
 
 
-$id = !empty($id) ? $id : 1;
-$nombreCom = !empty($nombreCom) ? $nombreCom : 'Oliver Raúl Velázquez Torres';
-$institucion = !empty($institucion) ? $institucion : 'Universidad Tecnológica Fidel Velázquez';
-$correoMd5 = !empty($correoMd5) ? $correoMd5 : '4fcaecb132895e6effeba9d763a3fe24';
+$id = !empty($id) ? $id : '';
+$nombreCom = !empty($nombreCom) ? $nombreCom : '';
+$institucion = !empty($institucion) ? $institucion : '';
+$correoMd5 = !empty($correoMd5) ? $correoMd5 : '';
 // $id = !empty($id) ? $id : '';
 // $nombreCom = !empty($nombreCom) ? $nombreCom : '';
 // $institucion = !empty($institucion) ? $institucion : '';
