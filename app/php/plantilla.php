@@ -48,28 +48,8 @@ switch ($contCaract) {
         <link rel="stylesheet" href="../../css/cadeneros.css">
     </head>
     <body>
-        <div class="hoja">
-            <div class="nomInvitado">
-                <h1><?php echo $nombreCom;?></h1>
-                <br>
-                <h3><?php echo $institucion;?></h3>
-            </div>
-            <!-- <img src="../../img/acceso.jpg" style="background-color: red;"> -->
-            <?php
-                include('phpqrcode.php');
-
-                $contenido = "https://congreso.utfv.net/";
-                
-                // Exportamos una imagen llamado resultado.png que contendra el valor de la avriable $content
-                QRcode::png($contenido,"resultado.png",QR_ECLEVEL_L,20,2);
-                
-                // Impresión de la imagen en el navegador listo para usarla
-                echo "<div class='codigoQr'><img src='resultado.png'/></div>";
-            ?>
-                <div class="codigoBarras">
+    <div class="codigoBarras">
                     <div class="otraCodigoBarras"><?php echo $barCode;?></div>
                 </div>
-                 <img src="../../img/acceso.jpg">
-        </div>
     </body>
 </html>
