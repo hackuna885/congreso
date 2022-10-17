@@ -44,7 +44,7 @@ switch ($contCaract) {
         <style>
             @font-face {
             font-family: 'code39';
-            src: url("../../css/fonts/free3of9-webfont.ttf") format("truetype");
+            src: url("css/fonts/free3of9-webfont.ttf") format("truetype");
             font-style: normal;
             font-weight: normal; }
 
