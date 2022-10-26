@@ -40,7 +40,7 @@
                 $dompdf->render();
         
                 //Pregunta donde guardar el PDF
-                $pdf = $dompdf->stream($nomPdf);
+                $pdf = $dompdf->stream($nomPdf, array('Attachment'=>0));
         
                 //Guarda PDF dentro de la ruta
                 // $output = $dompdf->output();
