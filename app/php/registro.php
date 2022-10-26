@@ -189,7 +189,7 @@ if ($opcion === 1) {
 				</table>
 				<br>
 				<br>
-				Ahora solo <b>deberás esperar la activación de tu usuario</b>, este estará activo a más tardar el día <b>30 de septiembre del 2022</b>, si aún no realizas el pago correspondiente, <b>genera tu línea de captura en el portal de Gobierno del Estado</b>:
+				Ahora solo <b>deberás esperar la activación de tu usuario</b>, este estará activo a más tardar el día <b>30 de octubre del 2022</b>, si aún no realizas el pago correspondiente, <b>genera tu línea de captura en el portal de Gobierno del Estado</b>:
 				<br>
 				<a href="https://sfpya.edomexico.gob.mx/recaudacion/">https://sfpya.edomexico.gob.mx/recaudacion/</a>
 				<br>

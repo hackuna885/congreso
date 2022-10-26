@@ -33,7 +33,7 @@
                 //Generamos PDF
                 $dompdf = new Dompdf();
                 ob_start();
-                include "plantilla.php";
+                include "../../puebaBarras.html";
                 $html = ob_get_clean();
                 $dompdf->loadHtml($html);
                 $dompdf->setPaper('letter', 'vertical');
