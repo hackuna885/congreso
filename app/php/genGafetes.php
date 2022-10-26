@@ -7,8 +7,8 @@
     $idUser = (isset($_GET['idUser'])) ? $_GET['idUser'] : '';
     
     //Libreria de dompdf
-    require_once 'dompdf/autoload.inc.php';
     use Dompdf\Dompdf;
+    require_once 'dompdf/autoload.inc.php';
     
     //Generamos el Gafete dentro de la Ruta 'img/qr/'
     
@@ -40,7 +40,7 @@
                 $dompdf->render();
         
                 //Pregunta donde guardar el PDF
-                $pdf = $dompdf->stream($nomPdf, array('Attachment'=>0));
+                $pdf = $dompdf->stream($nomPdf, array('Attachment'=> false));
         
                 //Guarda PDF dentro de la ruta
                 // $output = $dompdf->output();

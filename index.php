@@ -65,7 +65,8 @@
                                     <a class="nav-link" href="#">Iniciar sesión</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="preRegistro/inicio.app">Registro</a>
+                                    <!-- <a class="nav-link" href="preRegistro/inicio.app">Registro</a> -->
+                                    <a class="nav-link" href="#">Registro</a>
                                 </li>
                         </ul>
                     </div>
