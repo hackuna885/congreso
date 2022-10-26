@@ -176,7 +176,7 @@ app.component('web-inicio', {
                     })
                 }else{
                     this.datos = response.data
-                    // console.log(response.data)
+                    console.log(response.data)
                 }
             })
         },
