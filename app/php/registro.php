@@ -199,15 +199,9 @@ if ($opcion === 1) {
 				<table style="text-align: center;">
 					<tr>
 						<td>
-							<a href="https://youtu.be/eb3uH6P38Do"><img src="video.jpg" alt="Video Tutorial"></a>
+							<a href="https://youtu.be/iEfHTjCKkaI"><img src="video.jpg" alt="Video Tutorial"></a>
 							<br>
-							<a href="https://youtu.be/eb3uH6P38Do">https://youtu.be/eb3uH6P38Do</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<p>también puedes descargar el siguiente manual en PDF:</p>
-							<a href="https://utfv.net/congreso/manual/fichaPago.pdf">Manual.pdf</a>
+							<a href="https://youtu.be/iEfHTjCKkaI">https://youtu.be/iEfHTjCKkaI</a>
 						</td>
 					</tr>
 				</table>
