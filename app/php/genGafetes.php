@@ -76,7 +76,7 @@
                             echo '<div class="codigoQr"><img src="../app/php/resultado.png"/></div>
                             
                             <div class="codigoBarras">
-                                <div class="otraCodigoBarras">*'.$barCode.'*</div>
+                                <div class="otraCodigoBarras">'.$barCode.'</div>
                             </div>
                             <img src="../img/acceso.jpg">
                     </div>

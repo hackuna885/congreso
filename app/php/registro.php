@@ -104,34 +104,34 @@ if ($opcion === 1) {
 
 					switch ($genAlgorit) {
 						case 1:
-							$correoDeEnvio = 'altausuario1@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario1@utfv.edu.mx';
 							break;
 						case 2:
-							$correoDeEnvio = 'altausuario2@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario2@utfv.edu.mx';
 							break;
 						case 3:
-							$correoDeEnvio = 'altausuario3@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario3@utfv.edu.mx';
 							break;
 						case 4:
-							$correoDeEnvio = 'altausuario4@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario4@utfv.edu.mx';
 							break;
 						case 5:
-							$correoDeEnvio = 'altausuario5@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario5@utfv.edu.mx';
 							break;
 						case 6:
-							$correoDeEnvio = 'altausuario6@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario6@utfv.edu.mx';
 							break;
 						case 7:
-							$correoDeEnvio = 'altausuario7@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario7@utfv.edu.mx';
 							break;
 						case 8:
-							$correoDeEnvio = 'altausuario8@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario8@utfv.edu.mx';
 							break;
 						case 9:
-							$correoDeEnvio = 'altausuario9@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario9@utfv.edu.mx';
 							break;
 						case 0:
-							$correoDeEnvio = 'altausuario10@congreso.utfv.net';
+							$correoDeEnvio = 'altausuario10@utfv.edu.mx';
 							break;
 					}
 
@@ -150,7 +150,7 @@ if ($opcion === 1) {
 		
 				$mail->isSMTP();
 		
-				$mail->Host       = 'smtp.hostinger.com';  // Specify main and backup SMTP servers
+				$mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 				$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 				$mail->Username   = $correoDeEnvio;                     // SMTP username
 				$mail->Password   = '@123Alta2022';                               // SMTP password
