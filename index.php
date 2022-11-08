@@ -171,7 +171,7 @@
                         </a>
                     </div>
                     <!-- //emprendimiento -->
-                    <br>
+                    <!-- <br>
                     <br>
                     <h3>CONCURSO DE EMPRENDIMIENTO:</h3>
                     <br>
@@ -198,7 +198,7 @@
                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
                           <span class="sr-only"></span>
                         </a>
-                    </div>
+                    </div> -->
                     <!-- //emprendimiento --> 
                     <!-- //convocatorias --> 
                 </div>
