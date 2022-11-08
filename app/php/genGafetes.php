@@ -67,7 +67,7 @@
                         </div>                        
             ';
                             include('phpqrcode.php');
-                            $contenido = "https://congreso.utfv.net/checkQr/qr.app?idUser=";
+                            $contenido = "https://congreso.utfv.net/checkQr/qr.app?idUser=".$correoMd5;
                             
                             // Exportamos una imagen llamado resultado.png que contendra el valor de la avriable $content
                             QRcode::png($contenido,"resultado.png",QR_ECLEVEL_L,20,2);
