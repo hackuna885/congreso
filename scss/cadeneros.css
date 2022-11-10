@@ -32,7 +32,7 @@
   width: 100%; }
 
 .codigoQr {
-  margin-top: 90px;
+  margin-top: 100px;
   margin-left: 245px;
   position: absolute;
   width: 140px;
@@ -41,7 +41,7 @@
 .nomInvitado {
   position: absolute;
   width: 200px;
-  margin-top: 160px;
+  margin-top: 180px;
   margin-left: 415px;
   font-size: .5em;
   text-align: center; }

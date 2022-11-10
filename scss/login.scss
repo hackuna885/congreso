@@ -1,0 +1,31 @@
+*{
+    font-family: Nunito;
+}
+.form-control-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 1.1rem 1rem;
+}
+.btn-primary{
+    background-color: #00B45C !important;
+    border: #00B45C;
+}
+a {
+    color: #00B45C;
+    text-decoration: none;
+    background-color: transparent;
+}
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-width: 1px 0px 0px;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: rgba(0, 0, 0, 0.1);
+}
