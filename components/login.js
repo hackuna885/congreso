@@ -12,7 +12,7 @@ app.component('web-login', {
 
                     <div class="mx-2 mx-md-5 my-md-5 my-3">
                         <h1 class="fw-light h3 mb-4 text-center">¡Bienvenido!</h1>
-                        <h2 class="fw-light h5 mb-4 text-center" style="font-size: 1.1em;">Sistema de búsqueda de personal.</h2>
+                        <h2 class="fw-light h5 mb-4 text-center" style="font-size: 1.1em;">Inicio de sesión - Congreso 2022</h2>
                         <form @submit.prevent="controlLogin">
                             <input type="email" class="form-control form-control-user mb-3" placeholder="Correo Electrónico" v-model="txtCorreo">
                             <input type="password" class="form-control form-control-user mb-3" placeholder="Contraseña" v-model="txtPws">
