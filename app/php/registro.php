@@ -104,31 +104,31 @@ if ($opcion === 1) {
 
 					switch ($genAlgorit) {
 						case 1:
-							$correoDeEnvio = 'altausuario1@utfv.edu.mx';
+							$correoDeEnvio = 'altausuario10@utfv.edu.mx';
 							break;
 						case 2:
-							$correoDeEnvio = 'altausuario2@utfv.edu.mx';
+							$correoDeEnvio = 'altausuario9@utfv.edu.mx';
 							break;
 						case 3:
-							$correoDeEnvio = 'altausuario3@utfv.edu.mx';
-							break;
-						case 4:
-							$correoDeEnvio = 'altausuario4@utfv.edu.mx';
-							break;
-						case 5:
-							$correoDeEnvio = 'altausuario5@utfv.edu.mx';
-							break;
-						case 6:
-							$correoDeEnvio = 'altausuario6@utfv.edu.mx';
-							break;
-						case 7:
-							$correoDeEnvio = 'altausuario7@utfv.edu.mx';
-							break;
-						case 8:
 							$correoDeEnvio = 'altausuario8@utfv.edu.mx';
 							break;
+						case 4:
+							$correoDeEnvio = 'altausuario7@utfv.edu.mx';
+							break;
+						case 5:
+							$correoDeEnvio = 'altausuario6@utfv.edu.mx';
+							break;
+						case 6:
+							$correoDeEnvio = 'altausuario5@utfv.edu.mx';
+							break;
+						case 7:
+							$correoDeEnvio = 'altausuario4@utfv.edu.mx';
+							break;
+						case 8:
+							$correoDeEnvio = 'altausuario3@utfv.edu.mx';
+							break;
 						case 9:
-							$correoDeEnvio = 'altausuario9@utfv.edu.mx';
+							$correoDeEnvio = 'altausuario2@utfv.edu.mx';
 							break;
 						case 0:
 							$correoDeEnvio = 'altausuario10@utfv.edu.mx';

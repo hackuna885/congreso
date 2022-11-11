@@ -6,7 +6,7 @@ app.component('web-login', {
             <div class="row justify-content-center align-items-center vh-100">
 
                 <div class="col-md-6 mx-auto text-center">
-                    <img src="img/login-image.png" class="img-fluid">
+                    <img src="../img/login-image.png" class="img-fluid">
                 </div>
                 <div class="col-md-6 mx-auto">
 
@@ -48,7 +48,7 @@ app.component('web-login', {
     },
     methods: {
         controlLogin () {
-            axios.post('login/inicio.app', {
+            axios.post('../login/inicio.app', {
                 opcion: 1,
                 txtCorreo: this.txtCorreo,
                 txtPws: this.txtPws

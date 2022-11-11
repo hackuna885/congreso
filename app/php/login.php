@@ -59,7 +59,7 @@ if ($opcion === 1) {
 	
 			/*VALIDACIÓN DE PASSWORD*/
 	
-			if($passDecrypt === $passCript){
+			if($password === $passCript){
 	
 				/*VALIDACIÓN DE USUARIO ACTIVO*/
 				
