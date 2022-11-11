@@ -99,7 +99,7 @@ if ($opcion === 1) {
 
 				//Algoritmo generador de Correos de envío
 
-				if ($ultimoRegis > 0 && $ultimoRegis < 1001) {
+				if ($ultimoRegis > 0 && $ultimoRegis < 10001) {
 					$genAlgorit = substr($id,-1);
 
 					switch ($genAlgorit) {

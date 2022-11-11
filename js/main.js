@@ -8,7 +8,7 @@ const store = new Vuex.Store({
 })
 
 
-const Inicio = { template: '<web-inicio></web-inicio>' }
+const Inicio = { template: '<web-login></web-login>' }
 const Inicio_restablecer = { template: '<inicio-restablecer></inicio-restablecer>' }
 const Inicio_rescontra = { template: '<inicio-rescontra></inicio-rescontra>' }
 const Inicio_registro = { template: '<inicio-registro></inicio-registro>' }

@@ -32,12 +32,22 @@ if ($opcion === 1) {
 		$cs = $con -> query("SELECT * FROM registroUsr WHERE correoMd5 = '$usuarioCript'");
 	
 		while ($resul = $cs -> fetchArray()) {
-			$nombre = $resul['nombreCom'];
+			$nombre = $resul['nombre'];
+			$aPaterno = $resul['aPaterno'];
+			$aMaterno = $resul['aMaterno'];
+			$nombreCom = $resul['nombreCom'];
+			$institucion = $resul['institucion'];
+			$rfc = $resul['rfc'];
+			$tel = $resul['tel'];
+			$userMd5 = $resul['userMd5'];
 			$correo = $resul['correo'];
 			$correoMd5 = $resul['correoMd5'];
+			$password = $resul['password'];
 			$passDecrypt = $resul['passDecrypt'];
+			$modalidad = $resul['modalidad'];
 			$tipoUsuario = $resul['tipoUsuario'];
 			$usrActivo = $resul['usrActivo'];
+			$usrAsistencia = $resul['usrAsistencia'];
 		}
 		
 		$correoMd5 = (isset($correoMd5)) ?  $correoMd5 : '';
@@ -55,7 +65,7 @@ if ($opcion === 1) {
 				
 				if($usrActivo === '1'){
 	
-					$_SESSION['nombre'] = $nombre;
+					$_SESSION['nombreCom'] = $nombreCom;
 					$_SESSION['correo'] = $correo;
 					$_SESSION['correoMd5'] = $correoMd5;
 					$_SESSION['tipoUsuario'] = $tipoUsuario;

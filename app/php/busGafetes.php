@@ -20,8 +20,8 @@
                                     <div class="form-group">
                                         <label for="">Buscar correo:</label>
                                         <div class="input-group">
-                                            <input type="text" class="form-control" @keyup.enter="buscar" v-model="txtBuscador" placeholder="Buscar..." id="onFocusTxt" autofocus/>
-                                            <button type="submit" @click="buscar" class=" input-group-tex btn btn-success"><i class="fas fa-search fa-sm me-1"></i>Buscar</button>
+                                            <input type="text" class="form-control" v-model="txtBuscador" placeholder="Buscar..." autofocus/>
+                                            <button type="submit" class=" input-group-tex btn btn-success"><i class="fas fa-search fa-sm me-1"></i>Buscar</button>
                                         </div>
                                     </div>
                                 </form>
@@ -59,13 +59,10 @@
         var app = new Vue({
             el: '#app',
             data: {
-                datos: '',
-                txtBuscador: '',
-                urlLink: 'https://congreso.utfv.net/genGafetes/usr.app?idUser='
+                datos: [],
+                txtBuscador: ''
             },
-            computed: {
-                
-            },
+            
             methods: {
                 buscar () {
                     axios.post('../busGafetesRes/buscar.app', {
@@ -82,8 +79,11 @@
                
             },
             created () {
-                
-            }
+      
+            },
+            mounted() {
+
+            },
 
         })
     </script>

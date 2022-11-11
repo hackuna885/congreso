@@ -100,7 +100,7 @@ app.component('web-inicio', {
     data () {
         return {
           datos: [],
-          txtBuscador: '',
+          txtBuscador: ''
         }
     },
     computed: {
