@@ -11,13 +11,7 @@ $opcion = (isset($_POST['opcion'])) ? $_POST['opcion'] : '';
 $txtBuscador = (isset($_POST['txtBuscador'])) ? $_POST['txtBuscador'] : '';
 
 // Intradas del form
-// $id = (isset($_POST['id'])) ? $_POST['id'] : '';
-// $nombre = (isset($_POST['nombre'])) ? $_POST['nombre'] : '';
-// $aPaterno = (isset($_POST['aPaterno'])) ? $_POST['aPaterno'] : '';
-// $aMaterno = (isset($_POST['aMaterno'])) ? $_POST['aMaterno'] : '';
-// $nombreCom = (isset($_POST['nombreCom'])) ? $_POST['nombreCom'] : '';
-// $institucion = (isset($_POST['institucion'])) ? $_POST['institucion'] : '';
-// $correo = (isset($_POST['correo'])) ? $_POST['correo'] : '';
+
 
 // Conexion a DB
 $con = new SQLite3("../data/data.db") or die("Problemas para conectar");
