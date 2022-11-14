@@ -144,7 +144,7 @@ app.component('inicio-rescontra', {
                   showConfirmButton: false,
                   timer: 2000,
                   onClose: () => {  
-                    window.location="/congreso";
+                    window.location="..";
                   }
               })
           }else{
