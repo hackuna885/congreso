@@ -75,7 +75,7 @@ app.component('inicio-restablecer', {
             <div class="row justify-content-center align-items-center vh-100">
 
                 <div class="col-md-6 mx-auto text-center">
-                    <img src="img/password-image.png" class="img-fluid">
+                    <img src="../img/password-image.png" class="img-fluid">
                 </div>
                 <div class="col-md-6 mx-auto">
 
@@ -114,7 +114,7 @@ app.component('inicio-restablecer', {
     },
     methods: {
         controlCorreo () {
-            axios.post('recupera/inicio.app', {
+            axios.post('../recupera/inicio.app', {
                 opcion: 1,
                 rCorreo: this.rCorreo
             })
@@ -127,7 +127,7 @@ app.component('inicio-restablecer', {
                       showConfirmButton: false,
                       timer: 2000,
                       onClose: () => {  
-                        window.location="/buscadorPersonal";
+                        window.location="/congreso";
                       }
                   })
               }else{

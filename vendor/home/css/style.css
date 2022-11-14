@@ -24,7 +24,7 @@ a:focus {
 
 .navbar {
   padding: 15px 10px;
-  background: #1d1b31;
+  background: #4F2D80;
   border: none;
   border-radius: 0;
   margin-bottom: 40px;
@@ -52,7 +52,7 @@ a:focus {
 #sidebar {
   min-width: 360px;
   max-width: 360px;
-  background: #1d1b31;
+  background: #4F2D80;
   color: #fff;
   transition: all 0.3s; }
 
@@ -61,7 +61,7 @@ a:focus {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #1d1b31; }
+  background: #4F2D80; }
 
 #sidebar ul.components {
   padding: 0px 0px; }
@@ -74,16 +74,16 @@ a:focus {
   padding: 10px;
   font-size: 1.1em;
   display: block;
-  color: #7DCB32; }
+  color: #fff; }
 
 #sidebar ul li a:hover {
   color: #fff;
-  background: #322e57; }
+  background: #4F2D80; }
 
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #1d1b31; }
+  background: #4F2D80; }
 
 a[data-toggle="collapse"] {
   position: relative; }
@@ -98,7 +98,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #1d1b31; }
+  background: #4F2D80; }
 
 ul.CTAs {
   padding: 20px; }
@@ -116,7 +116,7 @@ a.download {
 
 a.article,
 a.article:hover {
-  background: #1d1b31 !important;
+  background: #4F2D80 !important;
   color: #fff !important; }
 
 /* ---------------------------------------------------
@@ -154,13 +154,23 @@ a.article:hover {
 
 /*#########################*/
 .btn-infoDos {
-  background-color: #1d1b31;
-  border: 1px solid #1d1b31;
+  background-color: #4F2D80;
+  border: 1px solid #4F2D80;
   color: #FFF; }
 
 .btn-infoDos:hover {
-  background-color: #322e57;
-  border: 1px solid #322e57;
+  background-color: #4F2D80;
+  border: 1px solid #4F2D80;
+  color: #FFF; }
+
+.btn-infoTres {
+  background-color: #A271DF;
+  border: 1px solid #A271DF;
+  color: #FFF; }
+
+.btn-infoTres:hover {
+  background-color: #4F2D80;
+  border: 1px solid #4F2D80;
   color: #FFF; }
 
 /*#########################*/
@@ -189,6 +199,6 @@ a.article:hover {
 
 .liLinks:hover {
   color: #FFF;
-  background-color: #322e57; }
+  background-color: #4F2D80; }
 
 /*# sourceMappingURL=style.css.map */

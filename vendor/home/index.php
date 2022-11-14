@@ -14,11 +14,11 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../vendor/home/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="../../vendor/home/css/animate.min.css">
     <link rel="stylesheet" href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../../vendor/home/css/style.css">
     <title>Congreso 2022</title>
 </head>
 <body oncontextmenu="return false">
@@ -27,9 +27,9 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
 
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <img src="img/logo.svg" class="img-fluid">
+                    <img src="../../vendor/home/img/logo.svg" class="img-fluid">
                         <div class="btnSideBarSe">
-                            <button type="button" id="sidebarCollapse2" class="btn btn-secondary mt-3">
+                            <button type="button" id="sidebarCollapse2" class="btn btn-infoTres mt-3">
                                 <i class="fas fa-align-left"></i>
                                 <span> Mostrar Contenido</span>
                             </button>
@@ -62,26 +62,26 @@ $id = (isset($_GET['id'])) ? $_GET['id'] : '';
                     <?php
                         switch ($id) {
                             case 'inicio':
-                                include 'assets/inc/inicio.inc';
+                                include '../../vendor/home/assets/inc/inicio.inc';
                                 break;
-                            case 'horarios':
-                                include 'assets/inc/horarios2022_3.inc';
+                            case 'programa':
+                                include '../../vendor/home/assets/inc/programa.inc';
                                 break;
-                            case 'aulas':
-                                include 'assets/inc/aulas2022_3.inc';
+                            case 'salas':
+                                include '../../vendor/home/assets/inc/salas.inc';
                                 break;
-                            case 'califica':
-                                include 'assets/inc/califica2022_2.inc';
+                            case 'foros':
+                                include '../../vendor/home/assets/inc/foros.inc';
                                 break;
-                            case 'listas':
-                                include 'assets/inc/listas2022_3.inc';
+                            case 'conferencias':
+                                include '../../vendor/home/assets/inc/conferencias.inc';
                                 break;
-                            case 'especiales':
-                                include 'assets/inc/especiales.inc';
+                            case 'constancia':
+                                include '../../vendor/home/assets/inc/constancia.inc';
                                 break;
                             
                             default:
-                                include 'assets/inc/inicio.inc';
+                                include '../../vendor/home/assets/inc/inicio.inc';
                                 break;
                         }
                     ?>

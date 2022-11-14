@@ -62,7 +62,7 @@
                                     <a class="nav-link" href="#">Talleres</a>
                                 </li> -->
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Iniciar sesión</a>
+                                    <a class="nav-link" href="http://localhost/congreso/acceso/inicio.app">Iniciar sesión</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="preRegistro/inicio.app">Registro</a>

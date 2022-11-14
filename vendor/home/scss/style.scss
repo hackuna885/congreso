@@ -1,12 +1,13 @@
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
-$colorUno: #1d1b31;
-$colorDos: #322e57;
+$colorUno: #4F2D80;
+$colorDos: #4F2D80;
 $colorTres: #47417e;
 $colorCuatro: #37352F;
 $colorCinco: #73726E;
-$colorSeis: #7DCB32;
+$colorSeis: #fff;
+$colorSiete: #A271DF;
 
 *{
     margin: 0px;
@@ -202,6 +203,16 @@ a.article:hover {
     color: #FFF; }
   
   .btn-infoDos:hover {
+    background-color: $colorDos;
+    border: 1px solid $colorDos;
+    color: #FFF; }
+
+    .btn-infoTres {
+    background-color: $colorSiete;
+    border: 1px solid $colorSiete;
+    color: #FFF; }
+  
+  .btn-infoTres:hover {
     background-color: $colorDos;
     border: 1px solid $colorDos;
     color: #FFF; }

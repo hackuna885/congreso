@@ -38,7 +38,7 @@ if ($opcion === 1) {
 		$cs = $con -> query("SELECT * FROM registroUsr WHERE correoMd5 = '$correoCript'");
 	
 		while ($resul = $cs -> fetchArray()) {
-			$nombre = $resul['nombre'];
+			$nombreCom = $resul['nombreCom'];
 			$correo = $resul['correo'];
 			$correoMd5 = $resul['correoMd5'];
 		}
@@ -63,16 +63,16 @@ if ($opcion === 1) {
 			
 					$mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 					$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-					$mail->Username   = 'infocorreosmtp@gmail.com';                     // SMTP username
-					$mail->Password   = '123Sistemas2021';                               // SMTP password
-					$mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
-					$mail->Port       = 587;                                    // TCP port to connect to
+					$mail->Username   = 'altausuario9@utfv.edu.mx';                     // SMTP username
+					$mail->Password   = '@123Alta2022';                               // SMTP password
+					$mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
+					$mail->Port       = 465;                                    // TCP port to connect to
 			
 					//PARA PHP 5.6 Y POSTERIOR
 					$mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) );
 			
 					//Recipients
-					$mail->setFrom('infocorreosmtp@gmail.com', 'Info Correo');
+					$mail->setFrom('altausuario9@utfv.edu.mx', 'Restablecimiento de contraseña');
 					$mail->addAddress($correo);     //Correo de Salida
 					// $mail->addBCC('oliver.velazquez@corsec.com.mx');
 					// $mail->addAttachment('logoCorsec.png');  //Archivo Adjunto
@@ -80,11 +80,11 @@ if ($opcion === 1) {
 					// Content
 					$mail->isHTML(true);                                  // Set email format to HTML
 					// $mail->msgHTML(file_get_contents('ejemplo.html'), __DIR__);     //Se envio archivo en HTML pero $mail->Body debe estar desactivado
-					$mail->Subject = 'Restablece tu contraseña - Universidad Tecnológica Fidel Velázquez';
+					$mail->Subject = 'Restablece tu contraseña - XVIII CONGRESO NACIONAL DE ADMINISTRACIÓN Y NEGOCIOS 2022';
 					$mail->Body    = '
-					<h1>¡Hola '.$nombre.'!</h1>
+					<h1>¡Hola '.$nombreCom.'!</h1>
 					<br>
-					<p>Para restablecer tu contraseña da click <a href="http://localhost/buscadorPersonal/cambioContra/cuenta.app?rCorreo='.$correoMd5.'">aquí</a></p>
+					<p>Para restablecer tu contraseña da click <a href="http://localhost/congreso/cambioContra/cuenta.app?rCorreo='.$correoMd5.'">aquí</a></p>
 					';
 			
 					$mail->send();
