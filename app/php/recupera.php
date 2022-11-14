@@ -84,7 +84,7 @@ if ($opcion === 1) {
 					$mail->Body    = '
 					<h1>¡Hola '.$nombreCom.'!</h1>
 					<br>
-					<p>Para restablecer tu contraseña da click <a href="http://localhost/congreso/cambioContra/cuenta.app?rCorreo='.$correoMd5.'">aquí</a></p>
+					<p>Para restablecer tu contraseña da click <a href="https://congreso.utfv.net/cambioContra/cuenta.app?rCorreo='.$correoMd5.'">aquí</a></p>
 					';
 			
 					$mail->send();

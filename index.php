@@ -126,7 +126,7 @@
                     <!-- //emprendimiento -->
                     <br>
                     <br>
-                    <h3>Programa Oficial :</h3>
+                    <h3>PROGRAMA OFICIAL:</h3>
                     <br>
                     <div id="programa" class="carousel slide wow animate__animated animate__fadeInDown" data-ride="carousel">
                         <ol class="carousel-indicators">
