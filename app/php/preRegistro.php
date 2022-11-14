@@ -22,7 +22,7 @@
     <script src="../js/jquery.min.js"></script>
     <script src="../js/axios.min.js"></script>
     <script src="../js/sweetalert2.js"></script>
-    <script src="../js/main.js"></script>
+    <script src="../js3/main.js"></script>
     <script src="../components/Inicio.js"></script>
     <script>
         app.use(store);
