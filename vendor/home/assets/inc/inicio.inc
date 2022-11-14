@@ -5,6 +5,9 @@
 
                         <div class="col-12 rounded shadow-sm rounded pb-5 mt-5">
                             <br><br><br>
+                            <h3><b>¡Hola <?php echo $nombre; ?>!</b></h3>
+                            <br>
+                            <br>
                             <h1 class="py-3 text-center text-danger mt-5"><b>OBJETIVO:<b></h1>
                             <p class="py-3">
                                 Crear un escenario híbrido para actualizarse en temas de vanguardia sobre administración y negocios, software aplicado a los negocios, gestión de talento humano, conocer resultados de investigaciones, compartir experiencias y prepararnos para los grandes retos del mundo pospandemia. 

@@ -123,6 +123,56 @@
 
             <div class="row m-0 p-0">
                 <div class="col-md-8 my-5 mx-auto">
+                    <!-- //emprendimiento -->
+                    <br>
+                    <br>
+                    <h3>Programa Oficial :</h3>
+                    <br>
+                    <div id="programa" class="carousel slide wow animate__animated animate__fadeInDown" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                          <li data-target="#programa" data-slide-to="0" class="active"></li>
+                          <li data-target="#programa" data-slide-to="1"></li>
+                          <li data-target="#programa" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <a href="https://drive.google.com/file/d/1Si62i5ZULstGqyj6JvEZgQzj7M4CSk09/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/programa.jpg" alt="Concurso de Simuladores">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
+                                    <h2><p>Da click en la imagen</p></h2>                                    
+                                </div>
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="pdf/convocatoriaForoInvestigacion_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/carrusel1.jpg" alt="Foro de investigación">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
+                                    <h2>Foro de investigación</h2>
+                                    <p>Da click en la imagen</p>
+                                </div>
+                            </a>
+                          </div>
+                          <div class="carousel-item">
+                            <a href="pdf/convocatoriaEmprendimiento_XVIII_2022.pdf" target="_blank" rel="noopener noreferrer">
+                                <img class="d-block w-100" src="img/carrusel2.jpg" alt="Foro de investigación">
+                                <div class="carousel-caption d-none d-md-block animate__animated animate__heartBeat animate__infinite animate__slower" style="background-color: rgba(0, 0, 0, .5); margin-bottom: 170px;">
+                                    <h2>Concurso de Emprendedores</h2>
+                                    <p>Da click en la imagen</p>
+                                </div>
+                            </a>
+                          </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#convoca" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#convoca" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="sr-only"></span>
+                        </a>
+                    </div>
+                    <!-- //emprendimiento -->
+                    <br><br>
                     <h3>CONVOCATORIAS:</h3>
                     <br>
                     <!-- //coriascatorio --> 
@@ -170,6 +220,7 @@
                           <span class="sr-only"></span>
                         </a>
                     </div>
+                     
                     <!-- //emprendimiento -->
                     <!-- <br>
                     <br>
