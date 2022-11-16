@@ -22,7 +22,7 @@
                         </a>
                     </li>                 
                 </ul>
-                <ul class="list-unstyled components">
+                <!-- <ul class="list-unstyled components">
                     <li>
                         <a href="menu.aspx?id=foros" class="py-3">
                             <i class="bx bx-book-bookmark mx-2"></i>
@@ -37,7 +37,7 @@
                             <span class="links_name">Conferencias</span>
                         </a>
                     </li>                 
-                </ul>
+                </ul> -->
                 <ul class="list-unstyled components">
                     <li>
                         <a href="menu.aspx?id=constancia" class="py-3">
