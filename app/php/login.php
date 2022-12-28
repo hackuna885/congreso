@@ -32,6 +32,7 @@ if ($opcion === 1) {
 		$cs = $con -> query("SELECT * FROM registroUsr WHERE correoMd5 = '$usuarioCript'");
 	
 		while ($resul = $cs -> fetchArray()) {
+			$id = $resul['id'];
 			$nombre = $resul['nombre'];
 			$aPaterno = $resul['aPaterno'];
 			$aMaterno = $resul['aMaterno'];
@@ -65,6 +66,7 @@ if ($opcion === 1) {
 				
 				if($usrActivo === '1'){
 	
+					$_SESSION['id'] = $id;
 					$_SESSION['nombreCom'] = $nombreCom;
 					$_SESSION['correo'] = $correo;
 					$_SESSION['correoMd5'] = $correoMd5;

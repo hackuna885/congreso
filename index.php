@@ -542,8 +542,9 @@
             </div>
         </div> -->
     </div>
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/sweetalert2@11.js"></script>
     <script src="js/wow.min.js"></script>
