@@ -18,7 +18,7 @@
                                     <br>
 
                                     <div class="liLinks my-1">
-                                        <a href="congreso/reco/usuario.app" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://congreso.utfv.net/reco/usuario.app" target="_blank" rel="noopener noreferrer">
                                             <div class="centrado-v">
                                             <i class="fontGrande bx bxs-file-pdf"></i>
                                             Constancia
