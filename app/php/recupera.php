@@ -65,11 +65,11 @@ if ($opcion === 1) {
 					$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
 					$mail->Username   = 'altausuario1@utfv.edu.mx';                     // SMTP username
 					$mail->Password   = '@123Alta2022';                               // SMTP password
-					$mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
-					$mail->Port       = 465;                                    // TCP port to connect to
+					$mail->SMTPSecure = 'TLS';                                  // Enable TLS encryption, `ssl` also accepted
+					$mail->Port       = 587;                                    // TCP port to connect to
 			
 					//PARA PHP 5.6 Y POSTERIOR
-					$mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) );
+					$mail->SMTPOptions = array( 'TLS' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) );
 			
 					//Recipients
 					$mail->setFrom('altausuario1@utfv.edu.mx', 'Restablecimiento de contraseña');
