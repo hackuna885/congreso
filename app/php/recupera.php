@@ -63,8 +63,8 @@ if ($opcion === 1) {
 			
 					$mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 					$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-					$mail->Username   = 'congreson22@gmail.com';                     // SMTP username
-					$mail->Password   = '@123Congreso2022';                               // SMTP password
+					$mail->Username   = 'correopruebasutfv@gmail.com';                     // SMTP username
+					$mail->Password   = '123Dragones2022';                               // SMTP password
 					$mail->SMTPSecure = 'ssl';                                  // Enable TLS encryption, `ssl` also accepted
 					$mail->Port       = 465;                                    // TCP port to connect to
 			
@@ -72,7 +72,7 @@ if ($opcion === 1) {
 					$mail->SMTPOptions = array( 'ssl' => array( 'verify_peer' => false, 'verify_peer_name' => false, 'allow_self_signed' => true ) );
 			
 					//Recipients
-					$mail->setFrom('congreson22@gmail.com', 'Restablecimiento de contraseña');
+					$mail->setFrom('correopruebasutfv@gmail.com', 'Restablecimiento de contraseña');
 					$mail->addAddress($correo);     //Correo de Salida
 					// $mail->addBCC('oliver.velazquez@corsec.com.mx');
 					// $mail->addAttachment('logoCorsec.png');  //Archivo Adjunto
